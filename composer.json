@@ -1,15 +1,28 @@
 {
-  "name": "irazasyed/telegram-bot-sdk",
+  "name": "joshuagerke/telegram-bot-sdk",
   "description": "The Unofficial Telegram Bot API PHP SDK",
-  "keywords": ["telegram", "telegram bot", "telegram bot api", "telegram sdk", "telegram php", "laravel telegram", "laravel"],
+  "keywords": [
+    "telegram",
+    "telegram bot",
+    "telegram bot api",
+    "telegram sdk",
+    "telegram php",
+    "laravel telegram",
+    "laravel"
+  ],
   "type": "library",
-  "homepage": "https://github.com/irazasyed/telegram-bot-sdk",
+  "homepage": "https://github.com/JoshuaGerke/telegram-bot-sdk",
   "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Syed Irfaq R.",
       "email": "syed+gh@lukonet.com",
       "homepage": "https://github.com/irazasyed"
+    },
+    {
+      "name": "Joshua Gerke",
+      "email": "kontakt@joshua-gerke.de",
+      "homepage": "https://joshua-gerke.de"
     }
   ],
   "require": {
@@ -47,12 +60,10 @@
       "dev-master": "3.0-dev"
     },
     "laravel": {
-        "providers": [
-            "Telegram\\Bot\\Laravel\\TelegramServiceProvider"
-        ],
-        "aliases": {
-            "Telegram": "Telegram\\Bot\\Laravel\\Facades\\Telegram"
-        }
+      "providers": ["Telegram\\Bot\\Laravel\\TelegramServiceProvider"],
+      "aliases": {
+        "Telegram": "Telegram\\Bot\\Laravel\\Facades\\Telegram"
+      }
     }
   },
   "config": {
